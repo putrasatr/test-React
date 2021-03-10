@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { addUser, loginUser } from '../actions'
-
+import './Login.css'
 
 class LoginBox extends Component {
     constructor(props) {
